@@ -1,5 +1,7 @@
+import datetime
+
 def greet(name):
-    return f"Hello, {name}!"
+    return f"Hello, {name}, time is {datetime.datetime.now()}!"
 
 
 if __name__ == "__main__":
