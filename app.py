@@ -2,7 +2,7 @@ import datetime
 
 def greet(name):
 
-    return f"Good by and fare well, Have a great day, {name}, time is {datetime.datetime.now()}!"
+    return f"Good day, {name}, time is {datetime.datetime.now()}!"
 
 
 if __name__ == "__main__":
